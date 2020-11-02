@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+int main() {
+    
+   
+    std::cout << "El tipo de datos char se representa utilizando " << sizeof(char) << " bytes." << endl;
+    char cafe_n = 'n';
+    char& cafe = cafe_n;
+    std::cout << "La variable char cafe_n se representa utilizando " << sizeof(cafe_n) << " bytes." << endl;
+    std::cout << "La referencia de cafe_n se representa utilizando " << sizeof(cafe) << "bytes." << endl;
+    if (sizeof(cafe_n) == sizeof(cafe)) {
+    std::cout << "La variable y la referencia se representan utilizando la misma cantidad de bytes." << endl;
+    } else {
+    std::cout << "La variable y la referencia no se representan utilizando la misma cantidad de bytes." << endl;
+     
+    
+    
+    std::cout << "El tipo de datos bool se representa utilizando "
+    << sizeof(bool) << " bytes." << endl;
+    
+    
+    std::cout << "El tipo de datos int se representa utilizando " 
+    << sizeof(int) << " bytes." << endl;
+    
+    
+    std::cout << "El tipo de datos float se representa utilizando "
+    << sizeof(float) << " bytes." << endl;
+    
+    
+    std::cout << "El tipo de datos double se representa utilizando "
+    << sizeof(double) << " bytes." << endl;
+    
+    
+}
